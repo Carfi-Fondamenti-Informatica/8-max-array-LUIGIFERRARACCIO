@@ -12,7 +12,10 @@ int main(){
   }
   numeroMassimo(numeri, dim);
   
-  cout<<numeroMassimo(numeri, dim)<<endl,
+     cout<<numeroMassimo(numeri, dim)<<endl;
   return 0;
 }
 
+
+  
+ 
