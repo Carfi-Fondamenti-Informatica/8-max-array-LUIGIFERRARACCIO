@@ -1,7 +1,3 @@
-//
-// Created by luigiferraraccio on 11/12/2021.
-//
-
 #include "lib.h"
 float  numeroMassimo(const float numeri[], int dim){
   numeri[dim];
