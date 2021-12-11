@@ -1,16 +1,23 @@
-//
-// Created by LUIGIFERRARACCIO on 12/12/2021
-//
-
+#include <iostream>
 #include "lib.h"
-float  numeroMassimo( const float numeri[], int dim){
-  numeri [dim];
-  float massimo = numeri[0];
-  for (int i=0 ; i<dim ; i++){
-    if(massimo < numeri[i]){
-      massimo = numeri[i];
+using namespace std;
+
+
+double vett( ) {
+    int i,n;
+    double   max;
+    cin>>n;
+    double a[n];
+    for (i = 0; i < n; i++) {
+        cin >> a[i];
     }
-  }
-   return msssimo;
+    max = a[0];
+
+    for (i = 0; i < n; i++) {
+        if (a[i] > max) {
+            max = a[i];
+
+        }
+    }
+    return max;
 }
-   
