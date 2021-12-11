@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
   int dim;
   cin>>dim;
   float numeri[dim];
